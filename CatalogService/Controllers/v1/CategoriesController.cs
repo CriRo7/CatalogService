@@ -20,6 +20,7 @@ namespace CatalogService.Controllers.v1
 
         // GET: api/Categories
         [HttpGet]
+        [ResponseCache(Duration = 60)]
         public async Task<ActionResult<IEnumerable<Category>>> GetCategories()
         {
             if (_context.Categories == null)
