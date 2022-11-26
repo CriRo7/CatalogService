@@ -19,7 +19,6 @@ namespace CatalogService.Controllers.v2
 
         // GET: api/Items
         [HttpGet]
-        [MapToApiVersion("2.0")]
         public async Task<ActionResult<IEnumerable<Item>>> GetItem()
         {
             if (_context.Items == null)
