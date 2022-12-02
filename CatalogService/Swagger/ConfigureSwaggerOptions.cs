@@ -51,7 +51,7 @@ public class ConfigureSwaggerOptions
     {
         var info = new OpenApiInfo()
         {
-            Title = "Catalog Service Web API",
+            Title = "Catalog Service .NET 6 Web Api",
             Version = desc.ApiVersion.ToString()
         };
 
