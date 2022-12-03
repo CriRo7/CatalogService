@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.Models", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.DataContext", "CatalogService.DataContext\CatalogService.DataContext.csproj", "{B9465030-A22C-45C1-9F8C-C6B3C3B4B817}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.Tests", "CatalogService.Tests\CatalogService.Tests.csproj", "{C562FED2-B1E3-47BE-ABC1-ED8F15CE76F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B9465030-A22C-45C1-9F8C-C6B3C3B4B817}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9465030-A22C-45C1-9F8C-C6B3C3B4B817}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9465030-A22C-45C1-9F8C-C6B3C3B4B817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C562FED2-B1E3-47BE-ABC1-ED8F15CE76F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C562FED2-B1E3-47BE-ABC1-ED8F15CE76F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C562FED2-B1E3-47BE-ABC1-ED8F15CE76F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C562FED2-B1E3-47BE-ABC1-ED8F15CE76F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
